@@ -3,19 +3,21 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
+    background: url(/images/back2.jpg);
+    opacity: 0.7;
 }
     
 .card{
     display: flex;
     border: 2px solid;
-    color: black;
+    color: transparent;
     width: 90%;
     height: 650px;
-    margin: 30px;
-    margin-top: px;
-    margin-bottom: 30px;
+    margin: 40px;
+    margin-top:  50px -50px;
+   
     padding-bottom: 30px;
-    background-color: blue;
+    background-color: transparent;
    
 }
 .card-body{
@@ -34,7 +36,7 @@ h1{
     
 }
 span{
-    color: crimson;
+    color: greenyellow;
 }
 #bazeng{
     display: flex;
@@ -44,3 +46,30 @@ span{
     justify-content: center ;
     align-items: center;
 }
+.p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.akan-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+
+}
+.button{
+    background-color: thistle;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: 800;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: .5;
+
+}
+.button:hover{
+    transform: scale(0.9);
+}
+
+
