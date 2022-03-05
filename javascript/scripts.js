@@ -1,7 +1,6 @@
-let date = document.getElementById.("input1").value;
-let gender = prompt(" your gender");
-date = prompt("enter dateOfBirth");
- 
+ let akanNames = function(dateOfBirth,gender){return akanNames}
+let dateOfBirth = function("MM","DD","YY"){return "MM" + "/" + "DD" + "/" + "YY"}
+ dateOfBirth = prompt("enter date")
 
 
 
