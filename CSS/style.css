@@ -3,25 +3,25 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
-    background: url(/images/back2.jpg);
+    background: url(/images/back3.jpg);
     opacity: 0.7;
 }
     
 .card{
     display: flex;
     border: 2px solid;
-    color: transparent;
+    color: bisque;
     width: 90%;
     height: 650px;
     margin: 40px;
     margin-top:  50px -50px;
    
     padding-bottom: 30px;
-    background-color: transparent;
+    background-color: burlywood;
    
 }
 .card-body{
-    color:whitesmoke;
+    color:black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
     font-style: italic;
@@ -58,7 +58,7 @@ span{
 
 }
 .button{
-    background-color: thistle;
+    background-color: brown;
     color: black;
     text-decoration: none;
     border: 2px solid transparent;
