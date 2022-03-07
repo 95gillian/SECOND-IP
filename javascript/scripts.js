@@ -8,19 +8,23 @@
     let genders = document.getElementById("gender");
 
     let gender =["male","female"]
+    
 
     function myFunction()) {
         let tarehe = new date();
 
        
      if(date.value === '' || date.value == null && month.value === '' || month.value == null && year.value === '' || year.value == null){
-            if(date.value == null || month.value == null || year.value == null){
+            else if(date.value == null || month.value == null || year.value == null){
                 alert('please input date')
             }
-            alert('please input date')
-        }
+            if(gender.value === '' || gender.value == null && gender.value === '' || gender.value == null && year.value === '' || year.value == null){
+                else if(gender.value == null || gender.value == null || gender.value == null){
+                    alert('please input date')
         
-    }
+    
+        
+    
     }
 
 

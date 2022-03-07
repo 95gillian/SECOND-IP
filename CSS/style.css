@@ -12,9 +12,10 @@ body{
     border: 2px solid;
     color: bisque;
     width: 90%;
-    height: 900px;
+    height: 650px;
     margin: 40px;
-    margin-top:  50px -50px;
+    margin-top:  50px ;
+    margin-bottom: 30px --30px;
    
     padding-bottom: 30px;
     background-color: burlywood;
@@ -26,11 +27,22 @@ body{
     font-weight: 300;
     font-style: italic;
 }
+.card-body h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    font-weight: bolder;
+}
+span{
+    color: brown;
+}
 .akan-name{
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 5%;
+    font-weight: 500;
 }
 .p2{
     display: flex;
@@ -39,4 +51,33 @@ body{
     font-weight: 900;
     font-size: large;
     text-decoration: wavy
+}
+.btn{
+    background-color:brown;
+    color: blanchedalmond;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: 800;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: .5;
+}
+.btn:hover{
+    transform: scale(0.9);
+}
+#majina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+#input1{
+    font-weight: 700;
+}
+#input2{
+    font-weight: 700;
+}
+#input3{
+    font-weight: 700;
 }
