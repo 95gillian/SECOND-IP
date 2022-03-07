@@ -12,7 +12,7 @@ body{
     border: 2px solid;
     color: bisque;
     width: 90%;
-    height: 650px;
+    height: 800px;
     margin: 40px;
     margin-top:  50px ;
     margin-bottom: 30px --30px;
@@ -53,7 +53,7 @@ span{
     text-decoration: wavy
 }
 .btn{
-    background-color:brown;
+    background-color:black;
     color: blanchedalmond;
     text-decoration: none;
     border: 2px solid transparent;
