@@ -7,6 +7,7 @@
     <title>Second IP (AKAN-NAMES)</title>
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="/javascript/bootstrap.min.js"></script>
     
 
     
@@ -56,38 +57,59 @@
                             </div>
         
                         </div>
+                        <div>
                         <p class="p2">ENTER YOUR DATE OF BIRTH AND GENDER</p>
                         <form class="akan-name">
                             <label for="date" > DATE OF BIRTH</label><br>
                             <input id="input1" type="date" name="date" placeholder="MM/DD/YY">
                             <br>
+                            <div>
+                                <label for="date" > DAY OF BIRTH</label><br>
+                                 <input id="input1" type="number" name="date" placeholder="DD"><br>
+                                 <label for="month" > MONTH</label><br>
+                                 <input id="input1" type="number" name="month" placeholder="MM">
+                                 <label for="YEAR" > YEAR</label><br>
+                                 <input id="input1" type="number" name="year" placeholder="YY">
+             
+                          
+                                 
+             
+                             </div>
+                             
+
                             <label for="gender">SELECT YOUR GENDER</label><br>
-                            <input type="radio" value="male" name="gender">
-                            <label for="male">Male</label>
-                            <input type="radio" value="female" name="gender">
-                            <label  for="female">Female</label>
+                            <input  type="text" value="" >
+                    
+                            <datalist id="makes">
+                                <option value="male">
+                                <option value="female">
+
+                                </option>    
+                                </option>
+
+                            </datalist>
+
+                            
                             <br>
+                            
+                        </div>
+                       
+                        <div>
+                            <input type="button" onclick="myFunction()" value="submit">
+                            
+
+                        </div>
         
-                            <button id="btn " name="submit" id="submit"
-                            type="button">your Akan Name</button>
-        
-        
-                        </form>
-        
-                    </div>
-                    <form >
-                        <div class="your-akan-id"></div>
-                        <p>your-akan-id is</p>
+                
                         
-                    </form>
-        
+                    </form>       
                 </div>
                
         
                       
             </div>
           
-            <script src="js/scripts"></script>
+    
         
 
 
